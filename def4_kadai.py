@@ -1,11 +1,18 @@
-# def4.py
-#
+# def4_kadai.py
+# メインの処理をmain()関数に行わせるプログラム
 #
 
 import random
+
+# ランダムでkujiの中の一つを返す関数
 def omikuji():
-    kuji = ['大吉','中吉','小吉','凶']
+    kuji = ['大吉','中吉','吉','凶']
     return random.choice(kuji)
 
-kekka = omikuji()
-print('結果は', kekka, 'です')
+# エントリーポイントの定義
+def main():
+    kekka = omikuji()
+    print("結果は", kekka, "です。")
+
+if __name__=="__main__":
+   main()
