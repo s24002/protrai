@@ -15,7 +15,8 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # templeates/index.htmlをあらかじめ作成しておく
-    return "<h1>秘密のページ</h1>"
+    return "<h2>s24002</h2>"
+    return"<h3>こんにちは世界</h3>"
     return ""
 
 if __name__=='__main__':
