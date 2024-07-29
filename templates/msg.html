@@ -1,20 +1,15 @@
-<!-- templates/msg.html-->
+<!-- templates/msg.html -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>s24002</title>
+	<title>s24002</title>
 </head>
 <body>
-    <h2>メッセージアプリ</h2>
-    <from action="/submit" method="post">
-	    <label for="content">Content:</labl><br>
-	    <textarea id="content" name="content" rows="4" cols="50">
-</textarea>
-
-
-</body>
-</html><br><br>
-	<input type="submit" value="送信">
-	</from>
+	<h2>メッセージアプリ</h2>
+	<form action="/submit" method="post">
+		<label  for="content">Content:</label><br>
+		<textarea id="content" name="content" rows="4" cols="50"></textarea><br>
+		<input type="submit" value="送信">
+	</form>
 </body>
 </html>

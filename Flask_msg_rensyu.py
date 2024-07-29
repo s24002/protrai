@@ -30,5 +30,5 @@ def submit():
     with open('date.txt', 'a') as file:
         file.write(f"\n{datetime.datetime.now()}\n")
         return f"書き込みました"
-if __name__ == '__name__':
+if __name__ == '__main__':
     app.run(host='0.0.0.0',port='5000',debug=True)
